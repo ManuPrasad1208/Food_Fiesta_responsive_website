@@ -1,0 +1,35 @@
+/* media query breakpoints */
+
+
+/* media query breakpoints for mobiles */
+
+  /* @media(max-width:480px){
+  .about-img{
+    padding:50px;
+  }
+  .about-text{
+    padding:50px;
+  }
+} */
+/* media query breakpoints for tablets ipads in potrait mode*/
+@media(max-width:1024px){
+  .left-column{
+    font-size:1rem;
+  }
+  .about-img{
+    padding-left:50px;
+    padding-right:50px;
+  }
+  .about-text{
+    padding-left:50px;
+    padding-right:50px;
+  }
+}
+/* media query breakpoints for laptops and desktops*/
+@media(max-width:1280px){
+
+}
+/* media query breakpoints for larger screens */
+@media(max-width:1281px){
+
+}

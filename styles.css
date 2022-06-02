@@ -1,0 +1,182 @@
+h1{
+  font-family: "Viga";
+  color: #F8CB2E;
+  line-height: 3rem;
+}
+h2{
+  font-family: "Viga";
+  color: #F8CB2E;
+  line-height: 3rem;
+}
+p{
+  line-height: 2rem;
+  color:brown;
+}
+
+
+.logo-img{
+  width:50px;
+}
+.story-section{
+  width:100%;
+  background: url('/home/manu/Desktop/project_website/image/bg/bg-2.jpg') no-repeat center;
+  background-size:cover;
+  padding:100px 0;
+  text-align: center;
+}
+.top-banner{
+  width:100%;
+  background: url('/home/manu/Desktop/project_website/image/bg/bg-1.jpg') no-repeat center;
+  background-size:cover;
+  padding:150px 0;
+}
+.nav-item{
+  padding: 0 12px;
+}
+.left-column{
+  padding:0 100px;
+}
+.nav-link{
+  color:#F8CB2E;
+}
+.nav-link:hover{
+  color:brown;
+}
+.navbar{
+  padding:0 85px;
+  background-color:white;
+  z-index:1;
+}
+.navbar-toggler{
+  border: 1px solid #F8CB2E;
+  background-color:transparent;
+}
+/* .navbar-toggler-icon{
+  background-image: url(data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000…p='round' stroke-miterlimit='10' d='M47h22M4 15h22M423h22'/%3e%3c/svg%3e);
+} */
+
+
+
+         /* about */
+.ingredients_image{
+  width:100%;
+  border-radius: 0.625rem;
+}
+.about-img{
+  padding:50px 100px ;
+}
+.about-text{
+  padding:50px 100px 50px 100px ;
+}
+#features{
+  background-color: #FFDC76;
+  padding:7% 5%;
+}
+.feature-box{
+  text-align: center;
+}
+.icon:hover{
+  color:brown;
+}
+/* #features.h3{
+  /* color:#FFDC76;
+} */
+.combined-image{
+  width:100%;
+}
+.about2-text{
+  padding:50px;
+}
+.story-text{
+  padding:0 200px;
+}
+/* explore section */
+#Explore{
+  padding:100px 170px;
+  text-align: center;
+}
+.explore-content{
+  padding:7% 15%;
+}
+.card{
+  border-radius: 1rem;
+}
+/* testimonial */
+#testimonial{
+  padding:2% 15%;
+  background-color: #FFDC76;
+  text-align: center;
+  color:brown;
+}
+.testimonial-img{
+  padding:10px;
+  width:100px;
+  border-radius: 100%;
+
+}
+.carousel-inner{
+  padding:50px;
+}
+#testimonial h2{
+  color:brown;
+}
+.book-food{
+  text align:center;
+  background: url('/home/manu/Desktop/project_website/image/bg/bg-3.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding:5% 10%;
+}
+.right-book-food{
+  padding-left: 300px;
+}
+/* newsletter */
+.newsletter{
+  text-align: center;
+  padding:7% 15%;
+}
+#contact{
+  text-align: center;
+  background-color: #FFDC76;
+  padding:3% 10%;
+}
+.socialmediaicon{
+  padding:1.5rem;
+}
+/* media query breakpoints for tablets ipads in potrait mode*/
+@media(max-width:1024px){
+  .left-column{
+    font-size:1rem;
+  }
+  .about-img{
+    padding-left:50px;
+    padding-right:50px;
+  }
+  .about-text{
+    padding-left:50px;
+    padding-right:50px;
+  }
+  #Explore{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .story-text{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .about2-img{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+/* media query breakpoints for mobiles */
+@media(max-width:480px){
+  .story-text{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #Explore{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
